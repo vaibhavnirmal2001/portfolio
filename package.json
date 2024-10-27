@@ -1,5 +1,5 @@
 {
-  "name": "cleanfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://vaibhavnirmal2001.github.io/portfolio",
@@ -19,6 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start --openssl-legacy-provider",
+    "predeplopy":"npm run build",
     "build": "react-scripts build --openssl-legacy-provider",
     "test": "react-scripts test --openssl-legacy-provider",
     "eject": "react-scripts eject --openssl-legacy-provider",
