@@ -1,55 +1,52 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://vaibhavnirmal2001.github.io/vportfolio',
-  title: 'JS.',
+  homepage: 'https://vaibhavnirmal2001.github.io/portfolio/',
+  title: 'VN.',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Vaibhav Nirmal',
   role: 'Full Stack Developer',
   description:
-    'Hi, I am Vaibhav, a Digital Application Developer rocking it at Blue Altair. I am a passionate Software Developer with over 1.9 years of experience in full-stack development, specializing in Angular, Spring Boot, and Flutter. Currently, I’m expanding my expertise with FastAPI and ReactJS. My work at Blue Altair India Ltd. has equipped me with the skills to develop robust web and mobile applications, focusing on delivering seamless user experiences and efficient API integrations.',
-  resume: 'https://example.com',
+    'Hi, I’m Vaibhav, a Digital Application Developer at Blue Altair with over 2 years of full-stack development experience. I specialize in Angular, Spring Boot, and Flutter, and I’m currently expanding my skills with FastAPI and ReactJS. My role involves developing robust web and mobile applications that deliver seamless user experiences and efficient API integrations.',
+  resume: 'https://drive.google.com/file/d/1nWVgzyh81V28nYg7EkXgC29fFN6U7o9Y/view?usp=sharing',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/vaibhavnirmal2001/',
+    github: 'https://github.com/vaibhavnirmal2001',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
+ 
   {
-    name: 'Project 1',
+    name: 'Friends Web App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Created a unique social media app for managing and preserving memories of friends through photos, text, and personal stories. Integrated features for organizing friends’ info and experiences in an intuitive way.',
+    stack: ['SpringBoot', 'Angular', 'TypeScript', 'MongoDB', 'Git'],
+    sourceCode: 'https://github.com/vaibhavnirmal2001/friendsApp',
+    livePreview: 'https://github.com/vaibhavnirmal2001/friendsApp',
   },
   {
-    name: 'Project 2',
+    name: 'Friends App - Mobile App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A small and simple unique social media app for managing and preserving memories of friends through photos, text, and personal stories. Integrated features for organizing friends’ info and experiences in an intuitive way.',
+    stack: ['Flutter', 'Git'],
+    sourceCode: '/',
+    livePreview: '/',
   },
   {
-    name: 'Project 3',
+    name: 'Portfolio Web App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Vaibhav’s portfolio showcases his expertise as a Digital Application Developer, featuring projects in full-stack and mobile development.It is a responsive portfolio website using react to showcase his projects and digigtal resume.',
+    stack: ['ReactJs', 'JavaScript', 'HTML', 'CSS'],
+    sourceCode: 'https://github.com/vaibhavnirmal2001/portfolio',
+    livePreview: 'https://vaibhavnirmal2001.github.io/portfolio/',
   },
 ]
 
 const skills = [
   'Angular',
 'Spring Boot',
-'REST API,',
+'REST API',
 'HTML',
 'CSS',
 'Flutter',
@@ -65,7 +62,6 @@ const skills = [
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: 'vaibhavnirmal2001@gmail.com',
 }
 
