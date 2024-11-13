@@ -1,3 +1,7 @@
+body{
+  cursor: url('./Assets/mouse.png'), auto;
+  cursor: none;
+}
 .app {
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;

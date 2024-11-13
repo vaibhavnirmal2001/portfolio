@@ -8,7 +8,7 @@ const about = {
   role: 'Full Stack Developer',
   description:
     'Hi, I’m Vaibhav, a Digital Application Developer at Blue Altair with over 2 years of full-stack development experience. I specialize in Angular, Spring Boot, and Flutter, and I’m currently expanding my skills with FastAPI and ReactJS. My role involves developing robust web and mobile applications that deliver seamless user experiences and efficient API integrations.',
-  resume: 'https://drive.google.com/file/d/1nWVgzyh81V28nYg7EkXgC29fFN6U7o9Y/view?usp=sharing',
+  resume: null,//,
   social: {
     linkedin: 'https://www.linkedin.com/in/vaibhavnirmal2001/',
     github: 'https://github.com/vaibhavnirmal2001',

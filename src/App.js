@@ -8,6 +8,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
+import CustomCursor from './components/Extra/CustomCursor/CustomCursor'
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
@@ -16,6 +17,7 @@ const App = () => {
 
   return (
     <div id='top' className={`${themeName} app`}>
+      <CustomCursor />
       <Header />
 
       <main>

@@ -1,0 +1,30 @@
+/* CustomCursor.css
+.custom-cursor {
+    width: 32px;                     
+    height: 32px;
+    position: fixed;
+    background-image: url('./../../../Assets/mouse.png'); 
+    background-size: contain;        
+    background-repeat: no-repeat;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+  } */
+
+  /* CustomCursor.css */
+.custom-cursor {
+    width: 32px;                     /* Set to match the image dimensions */
+    height: 32px;
+    position: fixed;
+    background-image: url('./../../../Assets/mouse.png');
+    background-size: contain;        /* Ensures the image scales within the element */
+    background-repeat: no-repeat;
+    background-position: center;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    border: none;                    /* Ensure no border is applied */
+    box-shadow: none;                /* Ensure no shadow is applied */
+  }
+  
+  
